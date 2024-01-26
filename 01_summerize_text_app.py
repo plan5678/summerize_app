@@ -23,7 +23,7 @@ def main():
             openai.api_key  = open_apikey 
         st.markdown('---')
 
-    st.header("📃요약 프로그램")
+    st.header("📃요약 프로그램 (from 지기)")
     st.markdown('---')
     
     text = st.text_area("요약 할 글을 입력하세요")
